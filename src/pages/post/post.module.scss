@@ -1,1 +1,45 @@
-// TODO
+.postBanner {
+  width: 100%;
+}
+
+.postTitle {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--gray-100);
+}
+
+.postInfo {
+  font-size: 0.875rem;
+  line-height: 1.587rem;
+  color: var(--gray-300);
+  padding-top: 1.5rem;
+  list-style: none;
+  display: flex;
+
+  & li {
+    padding-right: 1.25rem;
+    display: flex;
+  }
+
+  & svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.625rem;
+  }
+}
+
+.postHeading {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  color: var(--gray-100);
+  margin: 35px 0;
+}
+
+.postText {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.312rem;
+  color: var(--gray-200);
+}
